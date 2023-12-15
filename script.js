@@ -1,13 +1,12 @@
 const Table = document.querySelector("#sampleTable");
 function insert_Row() {
     //Write your code here
-  const tr1 = document.createElement("tr");
-	const td1 = document.createElement("td");
-	td1.innerText = "New Cell1";
-	const td2 = document.createElement("td");
-	td2.innerText = "New Cell2";
+  const newRow = Table.insertRow(0);
 
-	tr1.appendChild(td1);
-	tr1.appendChild(td2);
-	tr1 = Table.insertRow(0);
+	const cell1 = newRow.insert(0);
+	Cell1.innerText = "New Cell1";
+
+	const cell2 = newRow.insert(1);
+	cell2.innerText = "New Cell2";
+	
 }
