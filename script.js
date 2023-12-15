@@ -9,5 +9,5 @@ function insert_Row() {
 
 	tr1.appendChild(td1);
 	tr1.appendChild(td2);
-	Table.insertRow(tr1,tr);
+	Table.insertRow(tr1);
 }
