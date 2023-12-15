@@ -1,3 +1,4 @@
+const Table = document.querySelector("#sampleTable");
 function insert_Row() {
     //Write your code here
   const tr1 = document.createElement("tr");
@@ -8,5 +9,5 @@ function insert_Row() {
 
 	tr1.appendChild(td1);
 	tr1.appendChild(td2);
-	table.insertBefore(tr1,tr);
+	Table.insertRow(tr1,tr);
 }
