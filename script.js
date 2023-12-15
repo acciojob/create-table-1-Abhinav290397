@@ -7,6 +7,6 @@ function insert_Row() {
 	td2.innerText = "New Cell2";
 
 	tr1.appendChild(td1);
-	tr1appendChild(td2);
+	tr1.appendChild(td2);
 	table.insertBefore(tr1,tr);
 }
